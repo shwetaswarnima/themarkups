@@ -1,0 +1,56 @@
+#backToTop {
+	background: transparent;
+	bottom: 50px;
+	color: #505050;
+    border: 1px solid #d9d9d9;
+	cursor: pointer;
+	display: none;
+	padding: 2px;
+	position: fixed;
+	right: 28px;
+	border-radius: 50%;
+	span {
+		position: relative;
+		display: block;
+		padding: 18px;
+		font-size: 18px;
+		font-weight: bold;
+		&:before,
+		&:after {
+			content: "";
+			display: block;
+			position: absolute;
+			transition: all 0.5s ease-in-out;
+		}
+		&:before {
+			top: 40%;
+			right: 8.4px;
+			width: 8px;
+			height: 8px;
+			transform-origin: 5px 12.5px;
+			transform: translate(0, -0.5em) rotate(-45deg);
+			box-shadow: inset -1px 1px 0 0 #d9d9d9;
+			border-radius: 0;
+		}
+		&:after {
+			top: 73%;
+			right: 8px;
+			width: 20px;
+			height: 1px;
+			background-color: #d9d9d9;
+			transform: translate(0, -0.5em) rotate(-90deg);
+		}
+	}
+	&:hover,
+	&:focus {
+		border: 1px solid #505050;
+		span {
+			&:before {
+				box-shadow: inset -1px 1px 0 0 #505050;
+			}
+			&:after {
+				background-color: #505050;
+			}
+		}
+	}
+}

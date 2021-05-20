@@ -1,0 +1,32 @@
+$breakpoint: (
+    xxs: 20em, // 320px
+    xxsl: 23.375em, //375px
+    xs: 24em, // 384px
+    sm: 36em, // 576px
+    smm: 37.5em, //600px
+    m: 47.9375em, // 767px
+    mmd: 48em, // 768px
+    mmmd: 56.25em, //900px
+    md: 61.938em, // 991px
+    mdxl: 64.0625em, //1025px
+    mdxxl: 64em, //1024px
+    lg: 62em, // 992px
+    xl: 75em, // 1200px
+    xxl: 85.375em, //1366px
+    xxlg: 87.5em, //1400px
+    xxxl: 1920px, //1920px
+);
+   
+@mixin breakpoint($bp, $rule: min-width) {
+    @media screen and (#{$rule}: map-get($breakpoint, $bp)) {
+        @content;
+    }
+}
+
+
+// @include breakpoint(m) {
+//         width: 48%;
+//  }
+// @include breakpoint(m, max-width) {
+//         width: 100%;
+//  }

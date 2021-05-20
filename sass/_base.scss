@@ -1,0 +1,79 @@
+html {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px; /* base font define */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $prompt;
+    font-weight: $regular;
+    font-size: 16px; /* base font define */
+    line-height: 1.5;
+    color: $secondaryColor;
+    overflow-x: hidden;
+}
+
+input:focus,
+button:focus,
+a:focus {
+    outline-width: 0;
+    outline-style: solid;
+    outline-color: transparent;
+}
+
+button:focus,
+a:focus {
+    border: 0;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+
+    padding: 20px 0 20px;
+
+    @media (min-width: 992px) {
+
+        padding: 50px 0 50px;
+
+    }
+}
+
+.text-white {
+    color: #ffffff !important;
+}
+.text-skyBlue {
+    color: #4ac6d6 !important;
+}
+.text-gray {
+    color: #54595f !important;
+}
+.text-center {
+    text-align: center !important;
+}
+
+h6 {
+
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.2;
+    display: block;
+    padding: 25px 0 0;
+}
+
+h2 {
+
+    font-size: 2.75rem;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.2;
+    display: block;
+    padding: 25px 0 25px;
+}

@@ -1,0 +1,44 @@
+$blackHazeApprox: #E8EBEB; /* rgb(232, 235, 235) */
+$blackHaze: #F7F8F8; /*rgb(247, 248, 248)*/
+$blueBayoux: #4F5F6E; /*rgb(79, 95, 110)*/
+$ebonyClay: #1C252B; /*rgb(28, 37, 43)*/
+$ebonyClayOpacity75: rgba(28, 37, 43, 0.75);
+$whiteSolid: #FFFFFF; /*rgb(255, 255, 255)*/
+$cinnabar: #E64229; /*rgb(230, 66, 41)*/
+$cinnabarOpacity30: rgba(230, 66, 41, 0.3);
+$tiara: #C8CECF; /*rgb(200, 206, 207)*/
+$grannySmith: #929D9F; /*rgb(146, 157, 159)*/
+$blumine: #1F4A83; /*rgb(31, 74, 131)*/
+$doveGray :#707070; /*rgb(112, 112, 112)*/
+$brightGray: #373E45; /*rgb(55, 62, 69)*/
+$brightGrayOpacity75: rgba(55, 62, 69, 0.75);
+$grannySmithOpacity75:rgba(146, 157, 159, 0.75);
+$tallPoppy: #B93524; /* rgb(185, 53, 36) */
+$selectedOpacity24: rgba(185, 53, 36, 0.24);
+$redSolid: #FF0000; /* rgb(255, 0, 0) */
+$geyser: #D6E2E3; /* rgb (214, 226, 227) */
+$whiteSolidOpacity50: rgba(255,255,255,0.5);
+$regentGray: #969EA5; /* rgb (150, 158, 165) */
+$altoSolid: #D2D2D2;  /* rgb (210, 210, 210) */
+$boulderApprox: #747474; /* rgb (116, 116, 116) */
+$doveGrayApprox: #706D6E; /* rgb (112, 109, 116) */
+$scorpionColor: #585858; /* rgb (88, 88, 88) */
+$jacartaColor: #2A276E; /* rgb (42, 39, 110) */
+$discoColor: #91207A; /* rgb(145, 32, 122) */
+$sunColor: #FEA60E; /* rgb (254, 166, 14) */
+$honeyFlower: #511E69; /* rgb (81, 30, 105) */
+
+/* Write color code namaing-convention above using this site --chir.ag/projects/name-that-color--  */
+
+/* $primaryColor: $blueBayoux;  for the paragraph color */
+$secondaryColor: $scorpionColor;  /* for the description color */
+$hoverColor: $cinnabar;
+$whiteColor: $whiteSolid;
+$errorColor: $redSolid;
+$menuItemColor: $jacartaColor;
+$arrowColor: $discoColor;
+$tagsYellow: $sunColor;
+$tagsBlue: $honeyFlower;
+
+$searchPlaceholder: $doveGray;
+
