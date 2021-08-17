@@ -20,6 +20,7 @@
 </head>
 
 <body>
+    <!-- Starting of Header with navbar -->
     <header>
         <div class="topHeader" id="topModule">
             <div class="container">
@@ -61,13 +62,13 @@
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.jpg" alt="logo">
                 </a>
-                <a class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarNav"
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </a>
-                <div class="navbar-collapse collapse" id="navbarNav" aria-expanded="false">
+            </button>
+                <div class="collapse navbar-collapse" id="navbarNav"  aria-expanded="false"  >
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a href="#">Home</a></li>
+                        <li class="nav-item"><a href="/home.html">Home</a></li>
                         <li class="nav-item"><a href="#">Blog</a></li>
                         <li class="nav-item"><a href="/about.html">About</a></li>
                         <li class="nav-item"><a href="/contactus.html">Contact</a></li>
@@ -76,6 +77,8 @@
             </nav>
         </div>
     </header>
+    <!-- Header with navbar Ends here -->
+    <!-- Starting of main body with banner -->
     <section class="bgBanner" style="background-image: url(images/banner.png);">
         <div class="container">
             <div class="row">
@@ -93,6 +96,8 @@
             </div>
         </div>
     </section>
+    <!-- Banner Ends here -->
+    <!-- Main body with Contents start  -->
     <section>
         <div class="container">
             <div class="row">
@@ -188,6 +193,8 @@
             </div>
         </div>
     </section>
+    <!-- Main body with Contents Ends here -->
+    <!-- Main body with Important Pages Start -->
     <section class="tmuGreen">
         <div class="container">
             <div class="row">
@@ -258,7 +265,9 @@
             </div>
         </div>
     </section>
+    <!-- Main body with Important Pages Ends -->
 
+    <!-- Footer Starts -->
     <footer>
         <div class="container">
             <div class="row">
@@ -274,10 +283,10 @@
                     <h3>Useful Pages</h3>
                     <ul class="footerLink">
                         <li>
-                            <a href="#"> About</a>
+                            <a href="/about.html"> About</a>
                         </li>
                         <li>
-                            <a href="#"> Contact</a>
+                            <a href="/contactus.html"> Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -298,6 +307,7 @@
             </div>
         </div>
     </footer>
+    <!-- Footer Ends -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/slick.min.js"></script>
