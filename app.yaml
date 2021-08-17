@@ -4,8 +4,8 @@ threadsafe: true
 
 handlers:
 - url: /
-  static_files: home.html
-  upload: home.html
+  static_files: www/home.html
+  upload: www/home.html
   http_headers:
     Access-Control-Allow-Origin: http://freelance-310913.el.r.appspot.com
 
