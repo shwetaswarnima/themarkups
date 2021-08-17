@@ -1,0 +1,14 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  static_files: home.html
+  upload: home.html
+  http_headers:
+    Access-Control-Allow-Origin: http://freelance-310913.el.r.appspot.com
+
+- url: /(.*)
+  static_files: www/\1
+  upload: www/(.*)
